@@ -1,0 +1,24 @@
+{
+  "name": "brave-ping",
+  "version": "0.0.1",
+  "description": "Test implementation of request signing vs. Brave Collective Core Service",
+  "main": "app.js",
+  "dependencies": {
+    "jws": "~0.2.3",
+    "async":"~0.2.9",
+    "asn1.js":"0.2.0",
+    "request":"2.30.0",
+    "brave-ec":">=0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cd test; mocha -R spec"
+  },
+  "keywords": [
+    "ecdsa",
+    "bccs",
+    "authentication"
+  ],
+  "author": "therealplato@gmail.com",
+  "license": "MIT"
+}
